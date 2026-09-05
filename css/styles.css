@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div.container {
+    background-color: #ede9cc;
+    max-width: 1180px;
+    min-width: 710px;
+    margin: 15px auto;
+}
+
+div.cabecalho {
+    min-width: 710px;
+    min-height: 250px;
+    position: relative;
+}
+
+div.logo {
+    background: #dbcd87 url(../imgs/topo-imagem-principal2.png) no-repeat;
+    height: 250px;
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+div.logo > img {
+    margin: 10px;
+}
+
+div.menu {
+    background: url(../imgs/topo-imagem-lateral.png) no-repeat;
+    width: 450px;
+    height: 250px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+div.conteudo-menu {
+    margin: 15px 20px 0 20px;
+    padding: 0 10px;
+}
+
+div.topo-menu{
+    border-top: 1px solid #b5ab56;
+    border-bottom: 1px solid #b5ab56;
+    padding: 10px;
+}
+
+div.topo-menu span {
+    font-size: 13px;
+    margin-right: 25px;
+    color: #8b8448;
+}
+
+div.topo-menu a {
+    color: #fff5b0;
+    background-color: #a29750;
+    text-decoration: none;
+    padding: 6px 6px;
+}
